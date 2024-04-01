@@ -1,0 +1,140 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    font-family: Roboto, sans-serif;
+   
+    
+}
+
+.navbar{
+    background-color: #e15f43; 
+}
+#cabecalho  .nav .nav-link.active{
+    background-color: #ffffff;
+    color: #e15f43;
+}
+ #cabecalho  .nav .nav-link,
+.navbar-brand,
+.nav-brand:hover{
+    color: #ffffff;
+}
+
+.carousel-inner{
+    height: 50vh;
+    width: 100%;
+}
+.carousel-inner img{
+    width: 100%;
+}
+.nossos-jogos{
+    background-color:#d1715c;
+}
+
+.sobre-jogos{
+    text-align: center;
+    height: 40vh;
+    background-color: #e15f43;
+}
+.sobre-jogos img{
+    margin-top: 2%;
+}
+h2{
+    text-align: center;
+}
+.jogos {
+    display: flex;
+    justify-content: space-around;
+    background-color: #d1715c;
+}
+
+
+span{
+    color: #5c1b0d;
+}
+
+.fale-conosco h2{
+    text-align: center;
+    margin: 0;
+}
+.quemsomos {
+    text-align: center;
+    background-color:#e15f43;
+  
+}
+
+.fale-conosco{
+    width: 100%;
+    background-color:#d1715c;
+}
+
+.formulario{
+    width: 40%;
+    font-size: 20px;
+    justify-content: center;
+}
+
+
+
+
+
+
+@media (max-width: 572px) { 
+    .sobre-jogos{
+        text-align: center;
+        height: 40%;
+    }
+
+    h2{
+        text-align: center;
+    }
+    .jogos {
+        display: grid;
+        flex-direction: column;
+        background-color: #d1715c;
+        padding: 5%;
+    }
+ }
+
+
+ @media (max-width: 768px){
+    .sobre-jogos{
+        text-align: center;
+        height: 40%;
+    }
+
+    h2{
+        text-align: center;
+    }
+    .jogos {
+        display: grid;
+        flex-direction: column;
+        background-color: #d1715c;
+        padding: 5%;
+    }
+ }
+ @media  (max-width:900px) {
+    .sobre-jogos{
+        text-align: center;
+        height: 40%;
+    }
+
+    h2{
+        text-align: center;
+    }
+    .jogos {
+        display: grid;
+        flex-direction: column;
+        background-color: #d1715c;
+        padding: 5%;
+    }
+    
+ }
+   
+
+ 
+ 
